@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+.rooms {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.room {
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.room:hover {
+    transform: scale(1.02);
+}
+
+.status {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.free {
+    color: green;
+}
+
+.occupied {
+    color: red;
+}
+
+.maintenance {
+    color: orange;
+}

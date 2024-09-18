@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monitoramento de Salas - IFCE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Monitoramento das Salas - Bloco 3</h1>
+        <div class="rooms" id="rooms">
+            <div class="room" id="sala-aula-4" onclick="toggleState('sala-aula-4')">
+                <h2>Sala de Aula 4</h2>
+                <div class="status free">Livre</div>
+            </div>
+            <div class="room" id="laboratorio-informatica-1" onclick="toggleState('laboratorio-informatica-1')">
+                <h2>Laboratório de Informática 1</h2>
+                <div class="status free">Livre</div>
+            </div>
+            <div class="room" id="sala-professores" onclick="toggleState('sala-professores')">
+                <h2>Sala de Professores</h2>
+                <div class="status free">Livre</div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
